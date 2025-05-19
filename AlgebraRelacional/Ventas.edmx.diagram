@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="281c95e1731f440b8d0941d097926467" Name="Diagram1">
+        <EntityTypeShape EntityType="BDVentasModel.TBoleta" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDVentasModel.TCategoria" Width="1.5" PointX="0.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDVentasModel.TCliente" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDVentasModel.TDetalle" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDVentasModel.TProducto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDVentasModel.TVendedor" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <AssociationConnector Association="BDVentasModel.FK__TBoleta__CodClie__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="BDVentasModel.FK__TBoleta__CodVend__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="BDVentasModel.FK__TDetalle__NroBol__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="BDVentasModel.FK__TCategori__Categ__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="BDVentasModel.FK__TProducto__CodCa__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="BDVentasModel.FK__TDetalle__CodPro__45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
